@@ -1,0 +1,20 @@
+{
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    },
+    "autoload": {
+        "psr-4": {
+            "ChapmanDigital\\": "src/ChapmanDigital/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Integration\\ChapmanDigital\\": "tests/Integration/ChapmanDigital/",
+            "Tests\\Unit\\ChapmanDigital\\": "tests/Unit/ChapmanDigital/"
+        }
+    },
+    "require": {
+        "ramsey/uuid": "^3.8",
+        "ext-pdo": "*"
+    }
+}
